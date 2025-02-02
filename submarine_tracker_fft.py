@@ -12,9 +12,8 @@ import plotly.graph_objs as go
 # utility for clearing output of cell as loop runs in notebook
 from IPython.display import clear_output
 
-# plot the data in time
 
-# NOTE: L we defined in class is 2Lh here, i.e. the domain here is [-Lh,Lh].
+
 Lh = 10; # length of spatial domain (cube of side L = 2*10).
 N_grid = 64; # number of grid points/Fourier modes in each direction
 xx = np.linspace(-Lh, Lh, N_grid+1) #spatial grid in x dir
